@@ -1,0 +1,1000 @@
+  165  cat a.log | ccze -A | awk '{print $16}' | sort  | uniq -c | sort -n
+  166  cat a.log | ccze -A | awk '{print $17}' | sort  | uniq -c | sort -n
+  167  cat a.log | ccze -A | awk '{print $15}' | sort  | uniq -c | sort -n
+  168  cat a.log | ccze -A | awk '{print $15}' | sort -n
+  169  cat a.log | awk '({NF-1})' | uniq -c
+  170  cat a.log | awk '{print $(NF-1)}' | uniq -c
+  171  cat a.log | awk '{print $(NF-1)}'  | sort | uniq -c | sort -n
+  172  cat a.log | awk '{print $(NF-1)}'  | sort | uniq -c | cat a.log | awk '{print $(NF-1)}'  | sort | uniq -c
+  173  cat a.log | awk '{print $(NF-1)}'  | sort | uniq -c | cat a.log | awk '{print $(NF-1)}'  | sort | uniq
+  174  cat a.log | awk '{print $(NF-1)}'  | sort | uniq -c | cat a.log | awk '{print $(NF-1)}'  | sort | cat a.log | awk '{print $(NF-1)}'  | sort | uniq -c | cat a.log | awk '{print $(NF-1)}'  | sort
+  175  cat a.log | awk '{print $(NF-1)}'  | sort | tail
+  176  cat a.log | awk '{print $(NF-1)}'  | sort | tail -11
+  177  cat a.log | awk '{print $(NF-1)}'  | sort | tail -2
+  178  cat a.log | awk '{print $(NF-1)}'  | sort | tail -1
+  179  cat a.log | awk '{print $(NF-1)}'  | sort | head
+  180  cat a.log | awk '{print $(NF-1)}'  | sort | head -1
+  181  cat a.log | awk '{print $(NF-1)}'  | sort | head -20
+  182  cat a.log | awk '{print $(NF-1)}'  | sort | head -0
+  183  cat a.log | awk '{print $(NF-1)}'  | sort | head -1
+  184  cat a.log | awk '{print $(NF-1)}'  | sort | head -2
+  185  cat a.log | awk '{print $(NF-1)}'  | sort | tail -4804
+  186  cat a.log | awk '{print $(NF-1)}'  | sort | head -4804
+  187  cat a.log | awk '{print $(NF-1)}'  | sort | tail -4803
+  188  cat a.log | awk '{print $(NF-1)}'  | sort | head 1
+  189  cat a.log | awk '{print $(NF-1)}'  | sort | head -n 4804
+  190  cat a.log | awk '{print $(NF-1)}'  | sort | tail -n 4804
+  191  cat a.log | awk '{print $(NF-1)}'  | sort | tail -2
+  192  cat a.log | awk '{print $(NF-1)}'  | sort | tail -1
+  193  cat a.log | awk '{print $(NF-1)}'  | sort -1 | tail -1
+  194  cat a.log | awk '{print $(NF-1)}'  | sort -r | tail -1
+  195  cat a.log | awk '{print $(NF-1)}'  | sort -r | tail -400
+  196  cat a.log | awk '{print $(NF-1)}'  | sort -r | tail -2
+  197  cat a.log | awk '{print $(NF-1)}'  | sort -r | tail -1
+  198  cat a.log | awk '{print $(NF-2)}'  | sort -r | tail -1
+  199  cat a.log | awk '{print $(NF-1)}'  | sort -r | tail -1
+  200  cat a.log | awk '{print $(NF-1)}'  | sort -1 | tail -1
+  201  cat a.log | awk '{print $(NF-1)}'  | sort | tail -1
+  202  cat a.log | awk '{print $(NF-1) $7  }'  | sort | tail -1
+  203  cd /toto
+  204  mkdir toto
+  205  rm toto
+  206  cd toto
+  207  nano del.SH
+  208  del.SH
+  209  cd ~
+  210  bash del.SH
+  211  bash del
+  212  ls
+  213  bash toto
+  214  cd toto
+  215  ls
+  216  bash del.SH
+  217  bash del
+  218  bash del.sh
+  219  nano del.SH
+  220  touch del.sh
+  221  gedit del.sh
+  222  gpedit del.sh
+  223  chmod ./heure2
+  224  chmod 755  ./heure2
+  225  chmod 755 ./heure2
+  226  chmod 777 ./heure2
+  227  chmod 755./heure2
+  228  chmod 755 ./heure2
+  229  chmod 755  ./heure2
+  230  chmod 755  ./heure2.sh
+  231  ./heure2.sh
+  232  heure2.sh
+  233  ls
+  234  bash heure2.sh
+  235  chmod ./heure2.sh
+  236  chmod
+  237  ls -lrt
+  238  ./heure2
+  239  ./heure2.sh
+  240  heure2.sh
+  241  ls
+  242  ./heure2.sh
+  243  ls
+  244  ls -lrt
+  245  vi ./heure2.sh
+  246  ./heure2.sh
+  247  vi ./heure2.sh
+  248  ./heure2.sh
+  249  cd ..
+  250  cd exo3
+  251  vi ./heure3.sh
+  252  vi ./cd.sh
+  253  ./cd.sh
+  254  chmod 755 cd.sh
+  255  ./cd.sh
+  256  vi ./cd.sh
+  257  ./cd.sh
+  258  vi ./cd.sh
+  259  ./cd.sh
+  260  ls
+  261  ./cd.sh
+  262  vi ./cd.sh
+  263  ./cd.sh
+  264  vi ./cd.sh
+  265  ./cd.sh
+  266  echo $?
+  267  ls 
+  268  ./cd.sh
+  269  vi ./cd.sh
+  270  ./cd.sh
+  271  vi ./cd.sh
+  272  ./cd.sh
+  273  ls
+  274  ./cd.sh
+  275  vi ./cd.sh
+  276  ./cd.sh
+  277  vi ./cd.sh
+  278  ./cd.sh
+  279  vi ./cd.sh
+  280  ./cd.sh
+  281  vi ./cd.sh
+  282  ./cd.sh
+  283  vi ./cd.sh
+  284  ./cd.sh
+  285  vi ./cd.sh
+  286  ./cd.sh
+  287  vi ./cd.sh
+  288  ./cd.sh
+  289  vi ./cd.sh
+  290  cd test
+  291  ls -l
+  292  ls
+  293  cd test
+  294  cd ..
+  295  vi ./cd.sh
+  296  cd ..
+  297  cd exo3
+  298  ./cd.sh
+  299  cd //
+  300  cd ..
+  301  cd //
+  302  cd ~
+  303  ls
+  304  cd home/vincent/rendu
+  305  cd home/vincent/
+  306  cd /home/vincent/
+  307  cd /home/vincent/rendu
+  308  ls
+  309  mkdir exo4
+  310  ls
+  311  mkdir exo5
+  312  mkdir exo6
+  313  mkdir exo7
+  314  mkdir exo8
+  315  mkdir exo9
+  316  mkdir exo10
+  317  ls
+  318  cd ~
+  319  ls
+  320  ls -a
+  321  cd .profil
+  322  ls
+  323  ls -a
+  324  cd /.profil
+  325  cat ~/.profile
+  326  cd /home/vincent/rendu/exo4
+  327  ./verification.sh
+  328  vi .verification.sh
+  329  cat ~/.profile
+  330  vi .verification.sh
+  331  /.verification.sh
+  332  vi .verification.sh
+  333  .verification.sh
+  334  verification.sh
+  335  ./verification.sh
+  336  vi /.verification.sh
+  337  cat ~/.profile
+  338  vi /.verification.sh
+  339  ./verification.sh
+  340  vi /.verification.sh
+  341  ./verification.sh
+  342  vi /.verification.sh
+  343  ./verification.sh
+  344  vi /.verification.sh
+  345  ./verification.sh
+  346  vi /.verification.sh
+  347  ./verification.sh
+  348  vi /.verification.sh
+  349  ./verification.sh
+  350  vi /.verification.sh
+  351  ./verification.sh
+  352  ls
+  353  ls -l
+  354  ls -a
+  355  ./verification.sh
+  356  /.verification.sh
+  357  chmod 755 /.verification.sh
+  358  /.verification.sh
+  359  ./verification.sh
+  360  vi /.verification.sh
+  361  ./verification.sh
+  362  /.verification.sh
+  363  vi /.verification.sh
+  364  /.verification.sh
+  365  ./efface_moi.sh
+  366  vi ./efface_moi.sh
+  367  ls -a
+  368  ./efface_moi.sh
+  369  chmod 755 efface_moi.sh
+  370  ./efface_moi.sh
+  371  vi ./efface_moi.sh
+  372  ls -a
+  373  chmod 755 efface_moi.sh
+  374  /.verification.sh
+  375  vi ./efface_moi.sh
+  376  vi /.verification.sh
+  377  ls -a
+  378  /.verification.sh
+  379  vi /.verification.sh
+  380  /.verification.sh
+  381  ls -a
+  382  vi /.verification.sh
+  383  ls -a
+  384  /.verification.sh
+  385  ls -a
+  386  /.verification.sh
+  387  vi /.verification.sh
+  388  /.verification.sh
+  389  vi /.verification.sh
+  390  /.verification.sh
+  391  ls -a
+  392  vi /.verification.sh
+  393  ls -a
+  394  vi /.verification.sh
+  395  ls -a
+  396  /.verification.sh
+  397  ls -a
+  398  /.verification.sh
+  399  vi /.verification.sh
+  400  /.verification.sh
+  401  ls -a
+  402  ./efface_moi.sh
+  403  ls -a
+  404  vi /.efface_moi.sh
+  405  ls -a
+  406  vi /.efface_moi.sh
+  407  ls -a
+  408  /.verification.sh
+  409  man if
+  410  man fi
+  411  cd ~
+  412  man if
+  413  cd /home/vincent/rendu/exo4
+  414  ls -a
+  415  vi ./efface_moi.sh
+  416  ls -a
+  417  ./efface_moi.sh
+  418  chmod 755 ./efface_moi.sh
+  419  ls -a
+  420  ./efface_moi.sh
+  421  ls -a
+  422  vi ./efface_moi.sh
+  423  chmod 755 ./efface_moi.sh
+  424  /.verification.sh
+  425  ./verification.sh
+  426  vi  ./verification.sh
+  427  vi /.verification.sh
+  428  ./verification.sh
+  429  ls -a
+  430  .verification.sh
+  431  ./veification.sh
+  432  ./verification.sh
+  433  vi ./verification.sh
+  434  rm -f ./verification.sh
+  435  ls -a
+  436  /.verification.sh
+  437  rm -f /.verification.sh
+  438  ls -a
+  439  vi ./verification.sh
+  440  rm -f /.verification.sh
+  441  ls -a
+  442  rm -f ./verification.sh
+  443  ls -a
+  444  vi /.verification.sh
+  445  ls -a
+  446  vi /.verification.sh
+  447  rm -f /.verification.sh
+  448  ls -a
+  449  rm -f /..verification.sh
+  450  ls -a
+  451  rm -f ./verification.sh
+  452  ls -a
+  453  ./verification.sh
+  454  /.verification.sh
+  455  ls -a
+  456  vi /.verification.sh
+  457  ls -a
+  458  ./verification.sh
+  459  vi  ./verification.sh
+  460  ./verification.sh
+  461  vi  ./verification.sh
+  462  chmod 755 ./verification.sh
+  463  vi  ./verification.sh
+  464  ./verification.sh
+  465  vi  ./verification.sh
+  466  ./verification.sh
+  467  ls -a
+  468  ./verification.sh
+  469  vi  ./verification.sh
+  470  ./verification.sh
+  471  ls -a
+  472  vi ./efface_moi.sh
+  473  ls -a
+  474  ./verification.sh
+  475  vi  ./verification.sh
+  476  ./verification.sh
+  477  ls -a
+  478  vi ./efface_moi.sh
+  479  vi  ./verification.sh
+  480  ./verification.sh
+  481  ls -a
+  482  vi  ./verification.sh
+  483  ./verification.sh
+  484  ls -a
+  485  ./verification.sh
+  486  vi  ./verification.sh
+  487  vi ./efface_moi.sh
+  488  ls -a
+  489  vi  ./verification.sh
+  490  ./verification.sh
+  491  vi ./efface_moi.sh
+  492  vi  ./verification.sh
+  493  ls -a
+  494  ./.verification.sh
+  495  vi ./.verifiacation.sh
+  496  ls -a
+  497  rm -f ./.veirfication.sh
+  498  rm -f ./.verification.sh
+  499  ls -a
+  500  rm -f ./.verifiacation.sh
+  501  ls -a
+  502  vi ./.verifiacation.sh
+  503  rm -f ./.verifiacation.sh
+  504  ls -a
+  505  vi  ./verification.sh
+  506  ls -a
+  507  ./.verification.sh
+  508  ./verification.sh
+  509  ls -a
+  510  ./verification.sh
+  511  vi  ./verification.sh
+  512  ./verification.sh
+  513  touch efface_moi
+  514  ./verification.sh
+  515  wq
+  516  ls
+  517  cd ..
+  518  cd exo5
+  519  vi test_curl
+  520  cd ~
+  521  cd /home/vincent
+  522  ls
+  523  vi ./test
+  524  vi ./arg.sh
+  525  cd /home/vincent/rendu/exo5
+  526  ls
+  527  vi test_curl
+  528  ./test_curl www.google.com
+  529  vi test_curl
+  530  cd /home/vincent
+  531  ls
+  532  vi ./arg.sh
+  533  cd /home/vincent/rendu/exo5
+  534  ls
+  535  vi test_curl
+  536  rm -f test_curl.sh
+  537  vi test_curl
+  538  rm -f test_curl.
+  539  rm -f test_curl
+  540  vi test_curl.sh
+  541  ./test_curl www.google.com
+  542  ./test_curl.sh www.google.com
+  543  chmod 755 ./test_curl.sh
+  544  ./test_curl.sh www.google.com
+  545  ./test_curl www.google.com
+  546  vi test_curl.sh
+  547  ./test_curl www.google.com
+  548  ./test_curl.sh www.google.com
+  549  ./test_curl.sh 1234567
+  550  wq
+  551  cd ..
+  552  cd exo6
+  553  ./historique.sh
+  554  vi  ./historique.sh
+  555  ./historique.sh
+  556  chmod 755 historique.sh
+  557  ./historique.sh
+  558  vi  ./historique.sh
+  559  ./historique.sh
+  560  vi  ./historique.sh
+  561  ./historique.sh
+  562  wq
+  563  vi  ./historique.sh
+  564  ./historique.sh
+  565  vi  ./historique.sh
+  566  ./historique.sh
+  567  vi  ./historique.sh
+  568  ./historique.sh
+  569  vi  ./historique.sh
+  570  ls
+  571  ./historique.sh
+  572  vi  ./historique.sh
+  573  ./historique.sh
+  574  vi  ./historique.sh
+  575  history
+  576  vi  ./historique.sh
+  577  history | tail -15
+  578  ./historique.sh
+  579  vi  ./historique.sh
+  580  ./historique.sh
+  581  vi  ./historique.sh
+  582  ./historique.sh
+  583  rm -f ./historique.sh
+  584  ls
+  585  ls -a
+  586  vi  ./historique.sh
+  587  ./historique.sh
+  588  chmod ./historique.sh
+  589  chmod 755 ./historique.sh
+  590  ./historique.sh
+  591  vi  ./historique.sh
+  592  ./historique.sh
+  593  vi  ./historique.sh
+  594  cd ..
+  595  cd exo7
+  596  ./add.sh
+  597  vi  ./add.sh
+  598  ./add.sh
+  599  chmod 755 ./add.sh
+  600  ./add.sh 5 7
+  601  ./add.sh 57
+  602  vi  ./add.sh
+  603  cd ~
+  604  cd /home/vincent
+  605  ls
+  606  vi ./arg.sh
+  607  cd /home/vincent/rendu
+  608  cd exo7
+  609  ls
+  610  vi  ./add.sh
+  611  ./add.sh 7 9
+  612  vi  ./add.sh
+  613  ./add.sh 7 9
+  614  ./add.sh
+  615  vi  ./add.sh
+  616  ./add.sh
+  617  vi  ./add.sh
+  618  ./add.sh
+  619  wq
+  620  vi  ./add.sh
+  621  ./add.sh
+  622  ./add.sh 5 8
+  623  vi  ./add.sh
+  624  ./add.sh 5 8
+  625  vi  ./add.sh
+  626  ./add.sh 5 8
+  627  vi  ./add.sh
+  628  ./add.sh 5 8
+  629  vi  ./add.sh
+  630  ./add.sh 5 8
+  631  vi  ./add.sh
+  632  ./add.sh 5 8
+  633  vi  ./add.sh
+  634  ./add.sh 5 8
+  635  ./add.sh 6 8
+  636  vi  ./add.sh
+  637  ./add.sh 6 8
+  638  ./add.sh 8 3
+  639  vi  ./add.sh
+  640  ./add.sh 8 3
+  641  ./add.sh 6 8
+  642  vi  ./add.sh
+  643  ./add.sh 6 8
+  644  ./add.sh 6 2
+  645  cd ..
+  646  cd exo8
+  647  vi ./sum200.sh
+  648  ./sum200.sh
+  649  chmod 755 ./sum200.sh
+  650  ./sum200.sh
+  651  cd ~
+  652  cd /home/vincent/rendu/exo9
+  653  cd ..
+  654  vi ./sum200.sh
+  655  rm -f ./sum200.sh
+  656  cd exo8
+  657  vi ./sum200.sh
+  658  cd ..
+  659  cd exo9
+  660  vi ./mean200.sh
+  661  ./mean200.sh
+  662  chmod 755 ./mean.sh
+  663  chmod 755 ./mean200.sh
+  664  vi ./mean200.sh
+  665  for i in {0..200};do echo $i;done | ./mean2OO.sh
+  666  cd exo8
+  667  ls
+  668  cd ..
+  669  cd exo8
+  670  vi ./ass.sh
+  671  ls
+  672  vi ./sum200.sh
+  673  ./sum200.sh
+  674  for i in {0..200};do echo $i;done | ./sum200.sh
+  675  cd ..
+  676  cd exo9
+  677  for i in {0..200};do echo $i;done | ./mean2OO.sh
+  678  ls
+  679  for i in {0..200};do echo $i;done | ./mean2OO.sh
+  680  ./mean200.sh
+  681  vi ./mean200.sh
+  682  for i in {0..200};do echo $i;done | ./mean2OO.sh
+  683  vi ./mean200.sh
+  684  for i in {0..200};do echo $i;done | ./mean2OO.sh
+  685  for i in {0..200};do echo $i;done | mean2OO.sh
+  686  ls
+  687  ./mean2OO.sh
+  688  for i in {0..200};do echo $i;done | ./mean2OO.sh
+  689  vi ./mean.200.sh
+  690  rm -f ./mean.200.sh
+  691  vi ./mean200.sh
+  692  for i in {0..200};do echo $i;done | ./mean200.sh
+  693  cd ..
+  694  cd exo10
+  695  cd ..
+  696  ls
+  697  cd ~
+  698  cd /home/vincent/rendu/exo1 /home/vincent/rendu/ex01
+  699  mv /home/vincent/rendu/exo1 /home/vincent/rendu/ex01
+  700  mv /home/vincent/rendu/exo2 /home/vincent/rendu/ex02
+  701  mv /home/vincent/rendu/exo3 /home/vincent/rendu/ex03
+  702  mv /home/vincent/rendu/exo4 /home/vincent/rendu/ex04
+  703  mv /home/vincent/rendu/exo5 /home/vincent/rendu/ex05
+  704  mv /home/vincent/rendu/exo6 /home/vincent/rendu/ex06
+  705  mv /home/vincent/rendu/exo7 /home/vincent/rendu/ex07
+  706  mv /home/vincent/rendu/exo8 /home/vincent/rendu/ex08
+  707  mv /home/vincent/rendu/exo9 /home/vincent/rendu/ex09
+  708  mv /home/vincent/rendu/exo10 /home/vincent/rendu/ex10
+  709  cd /home/vincent/rendu
+  710  ls
+  711  cd ex10
+  712  cd ..
+  713  ls
+  714  cd ex9
+  715  cd ex09
+  716  vi ./mean200.sh
+  717  cd ..
+  718  cd ex10
+  719  vi ./mean_sum200.sh
+  720  for i in {0..200};do echo $i;done | ./mean_sum200.sh
+  721  chmod 755 ./mean_sum200.sh
+  722  for i in {0..200};do echo $i;done | ./mean_sum200.sh
+  723  cd ..
+  724  ls
+  725  ls -l
+  726  cd ~
+  727  dat=$(date +%Y-%m-%d)
+  728  tar zcvf vincent_lau_2019-11-05.tar.gz rendu
+  729  tar zcvf vincent_lau_2019-11-05.tar.gz home/vincent/rendu
+  730  mv /home/vincent/rendu /
+  731  sudo su  mv /home/vincent/rendu /
+  732  sudo su mv /home/vincent/rendu /
+  733  sudo /home/vincent/rendu /
+  734  sudo mv  /home/vincent/rendu /
+  735  cd /home/vincent
+  736  tar zcvf vincent_lau_2019-11-05.tar.gz home/vincent/rendu
+  737  tar zcvf vincent_lau_2019-11-05.tar.gz rendu
+  738  cp vicnent_lau_2019-11-05.tar.gz /mnt/c/Users/Vincent/Desktop/.
+  739  cp vincent_lau_2019-11-05.tar.gz /mnt/c/Users/Vincent/Desktop/.
+  740  tar tf vincent_lau_2019-11-05.tar.gz 
+  741  ssh-keygen 
+  742  cd ~
+  743  ls
+  744  ls -lrt
+  745  cd ./ssh
+  746  ls -a
+  747  cd /ssh
+  748  cd /.ssh
+  749  ls -a
+  750  cd .ssh
+  751  ls -lrt
+  752  cat id_rsa.pub
+  753  cd ..
+  754  mkdir -p gits
+  755  cd gits
+  756  git clone git@github.com:vincentlau77/test-de-git.git
+  757  nano read.me
+  758  ls -l
+  759  cd test/
+  760  ls -a
+  761  cd test-de-gits
+  762  cd test-de-git
+  763  ls -a
+  764  cat .git/config
+  765  git status
+  766  nano READ.me
+  767  ls
+  768  nano READ.md
+  769  ls -all
+  770  cd .git
+  771  ls -all
+  772  cd ..
+  773  git status
+  774  ls -all
+  775  nano README.md 
+  776  git status
+  777  git dif
+  778  git diff
+  779  git commit README.md 
+  780  git diff
+  781  git commit README.md 
+  782  git push
+  783  cat test.sh
+  784  nano test.sh
+  785  git status
+  786  git add test.sh
+  787  git status
+  788  git commit -m
+  789  git commit -m ''
+  790  git commit -m 'add test.sh'
+  791  git push
+  792  ccze
+  793  apt install ccze
+  794  cd ~
+  795  clear
+  796  nano note.sh
+  797  note.sh
+  798  15
+  799  note.sh 15
+  800  ./note.sh 
+  801  chmod 755 ./note.sh
+  802  ./note.sh 15
+  803  ./note.sh
+  804  nano note.sh
+  805  ./note.sh
+  806  nano note.sh
+  807  ./note.sh
+  808  nano note.sh
+  809  ./note.sh
+  810  nano note.sh
+  811  ./note.sh
+  812  nano note.sh
+  813  ./note.sh
+  814  ./note.sh 15
+  815  ./note.sh
+  816  echo $?
+  817  ./note.sh
+  818  nano note.sh
+  819  ./note.sh
+  820  nano note.sh
+  821  ./note.sh
+  822  nano note.sh
+  823  ./note.sh
+  824  nano note.sh
+  825  nano note2.sh
+  826  ./note2.sh
+  827  chmod ./note2.sh
+  828  chmod 755 ./note2.sh
+  829  ./note2.sh
+  830  nano note.sh
+  831  ./note.sh
+  832  nano note.sh
+  833  ./note.sh
+  834  nano note.sh
+  835  ./note.sh
+  836  nano note.sh
+  837  ./note.sh
+  838  nano note.sh
+  839  ./note.sh
+  840  nano note.sh
+  841  ./note.sh
+  842  nano note.sh
+  843  ./note.sh
+  844  nano note.sh
+  845  ./note.sh
+  846  nano note.sh
+  847  ./note.sh
+  848  nano note.sh
+  849  ./note.sh
+  850  nano note.sh
+  851  ./note.sh
+  852  nano note.sh
+  853  ./note.sh
+  854  nano note.sh
+  855  ./note.sh
+  856  nano note.sh
+  857  zsh
+  858  apt install zsh
+  859  vi arg.sh
+  860  arg.sh
+  861  bash arg.sh
+  862  vi arg.sh
+  863  bash arg.sh
+  864  bash arg.sh toto tata
+  865  vi arg.sh
+  866  curl localhost
+  867  sudo su curl localhost
+  868  curl localhost
+  869  vi arg.sh
+  870  ./arg.sh localhost
+  871  ifconfig
+  872  ./arg.sh 192.168.22.13
+  873  wq
+  874  ifconfig
+  875  ./arg.sh 192.168.20.58
+  876  ./arg.sh google.com
+  877  ./arg.sh 192.168.22.13
+  878  vi arg.sh
+  879  ./arg.sh
+  880  vi arg.sh
+  881  echo $?
+  882  vi arg.sh
+  883  ./arg.sh && echo "test ok" || echo "test fail"
+  884  ./arg.sh > /dev/null  && echo "test ok" || echo "test fail"
+  885  if ./arg.sh > /dev/null && echo "test ok" || echo "test fail" 
+  886  vi arg.sh
+  887  ./arg.sh
+  888  vi arg.sh
+  889  ./arg.sh
+  890  ./arg.sh 1234567890
+  891  ./arg.sh 192.168.22.13
+  892  ./arg.sh 192.168.22.14
+  893  ./arg.sh
+  894  vi arg.sh
+  895  ./arg.sh
+  896  ./arg.sh 5678
+  897  vi arg.sh
+  898  ./arg.sh 5678
+  899  wq
+  900  ./arg.sh 192.168.22.13
+  901  ./arg.sh 192.168.22.17
+  902  ./arg.sh localhost
+  903  ./arg.sh 192.168.22.17
+  904  vi arg.sh
+  905  ./arg.sh 192.168.22.17
+  906  ./arg.sh localhost
+  907  vi arg.sh
+  908  ./arg.sh 0
+  909  vi arg.sh
+  910  ./arg.sh 0
+  911  vi arg.sh
+  912  ./arg.sh 0
+  913  vi arg.sh
+  914  ./arg.sh 0
+  915  ./arg.sh google.com
+  916  ./arg.sh 1234567890
+  917  vi arg.sh
+  918  ./arg.sh 1234567890
+  919  ./arg.sh depjofzepfjpzjfp
+  920  for i {1..15};do echo $i; done
+  921  for i in {1..15};do echo $i; done
+  922  echo {a..z}
+  923  mkdir compress
+  924  touch compress/{a..z}
+  925  echo commpress/{a..}
+  926  echo commpress/{a..z}
+  927  echo commpress/{a,z}
+  928  fin compress
+  929  find compress
+  930  man tar
+  931  tar tar zcvf test.tar.ggz compress/
+  932  tar zcvf test.tar.gz compress/
+  933  ls -lrt tar.gz
+  934  ls -lrt test.tar.gz
+  935  rm -rf compress/
+  936  tar xvf test.tar.gz
+  937  tar tvf test.tar.gz
+  938  sudo
+  939  ùan sudo
+  940  man sudo
+  941  vi arg.sh
+  942  /mnt/c
+  943  ls -l /mnt/c
+  944  ls -l /mnt/c/user
+  945  ls -l /mnt/c/Users
+  946  cp test test.tar.gz /mnt/c/Users/Vincent/Desktop
+  947  cp test.tar.gz /mnt/c/Users/Vincent/Desktop
+  948  mkdir -p rendu/exo1
+  949  mkdir -p rendu/exo2
+  950  mkdir -p rendu/exo3
+  951  find rendu/
+  952  vi ./heure1.sh
+  953  cd rendu/exo1
+  954  vi ./heure1.sh
+  955  ./heure1.sh
+  956  chmod 7777 ./heure1.sh
+  957  ./heure1.sh
+  958  vi ./heure1.sh
+  959  ./heure1.sh
+  960  cd ~
+  961  cd /home/vincent
+  962  ls 
+  963  cd rendu
+  964  ls
+  965  cd exo2
+  966  ls
+  967  cd ..
+  968  ls
+  969  cd exo1
+  970  ls
+  971  cd..
+  972  cd .
+  973  cd ..
+  974  cd exo2
+  975  ./heure2.sh
+  976  vi  ./heure2.sh
+  977  ./heure2.sh
+  978  vi  ./heure2.sh
+  979  ./heure2.sh
+  980  vi  ./heure2.sh
+  981  ./heure2.sh
+  982  vi  ./heure2.sh
+  983  ./heure2.sh
+  984  vi  ./heure2.sh
+  985  ./heure2.sh
+  986  chmod 755 ./heure2
+  987  sudo su
+  988  sh
+  989  ls toto
+  990  test.sh www.google.com
+  991  vim arg.sh
+  992  vi arg.sh
+  993  ls -l arg.sh
+  994  chmod +x agr.sh
+  995  chmod +x arg.sh
+  996  ls -l argh.sh
+  997  ls -l arg.sh
+  998  sudo su testuser
+  999  ls -l arg.sh
+ 1000  chmod o-x arg.sh
+ 1001  ls -l arg.sh
+ 1002  chmod 0755 arg.sh
+ 1003  ls -l arg.sh
+ 1004  chmod 0644 arg.sh
+ 1005  ls -l arg.sh
+ 1006  chmod 0755 arg.sh
+ 1007  ls -l arg.sh
+ 1008  ./arg.sh
+ 1009  ./arg.sh dfg
+ 1010  bash arg.sh
+ 1011  vi arg.sh
+ 1012  bash
+ 1013  cd /home/vincent/rendu
+ 1014  ls
+ 1015  cd ex04
+ 1016  ls
+ 1017  cd ..
+ 1018  cd ex05
+ 1019  ls
+ 1020  cd ..
+ 1021  cd ex06
+ 1022  ls
+ 1023  cd ..
+ 1024  cd ex07
+ 1025  ls
+ 1026  ./add.sh
+ 1027  nano add.sh
+ 1028  cd ..
+ 1029  cd ex08
+ 1030  ls
+ 1031  nano sum200.sh
+ 1032  cd ..
+ 1033  cd ex10
+ 1034  ls
+ 1035  nano ./mean_sum200.sh
+ 1036  ls
+ 1037  cd git
+ 1038  cd test-de-git
+ 1039  ls
+ 1040  cd /home/vincent
+ 1041  cd ~
+ 1042  ls
+ 1043  cd gits
+ 1044  ls
+ 1045  cd test2
+ 1046  echo "ccccc" >> fichier_a   
+ 1047  git diff
+ 1048  git commit -m 'ajout de cc' fichier_a
+ 1049  cd ..
+ 1050  cd test
+ 1051  ls
+ 1052  cd test-de-git
+ 1053  echo "ccccc" >> fichier_a   
+ 1054  git diff
+ 1055  git commit -m 'ajout de cc' fichier_a
+ 1056  git push
+ 1057  git pull
+ 1058  nano fichier_a
+ 1059  git push
+ 1060  git commit -m 'ajout de cc' fichier_a
+ 1061  git diff
+ 1062  git push
+ 1063  git pull
+ 1064  nano fichier_a
+ 1065  git add fichier_a
+ 1066  git diff
+ 1067  git commit -m 'ajout de cc' fichier_a
+ 1068  git pull
+ 1069  git commit -m 'fix conflict' fichier_a
+ 1070  git commit -m 'fix conflict'
+ 1071  git commit -m 'ajout de cc' fichier_a
+ 1072  git diff
+ 1073  git status
+ 1074  git push
+ 1075  git log
+ 1076  git checkout master
+ 1077  git log
+ 1078  git checkout c0232d0
+ 1079  ls
+ 1080  ls -l
+ 1081  nano fichier_a
+ 1082  git stash
+ 1083  touch bbbb
+ 1084  touch ccc
+ 1085  touch bbbb
+ 1086  git stash
+ 1087  echo bbb > b
+ 1088  echo ccc > c
+ 1089  git stash
+ 1090  git status
+ 1091  git stash
+ 1092  git stash ls
+ 1093  git stash list
+ 1094  ls
+ 1095  git stash pop
+ 1096  git list
+ 1097  git stash list
+ 1098  git add bbbb
+ 1099  git ccc
+ 1100  git add ccc
+ 1101  git add c
+ 1102  git add b
+ 1103  git status
+ 1104  git stash
+ 1105  ls -l
+ 1106  git stash pop
+ 1107  ls -l
+ 1108  git stash
+ 1109  ls -l
+ 1110  cd ..
+ 1111  git clone https://github.com/vincentlau77/ipssi_2019
+ 1112  ls
+ 1113  cd ipssi_2019
+ 1114  ls
+ 1115  nano README.md 
+ 1116  git commit -m 'ajout de nom' README.md 
+ 1117  git push
+ 1118  nano README.md 
+ 1119  git commit -m 'ajout de nom' README.md 
+ 1120  git push
+ 1121  cd ..
+ 1122  rm -r -f ipssi_2019
+ 1123  git clone git@github.com:vincentlau77/ipssi_2019.git
+ 1124  ls
+ 1125  cd ipssi_2019
+ 1126  ls
+ 1127  nano README.md 
+ 1128  git commit -m 'ajout de nom' README.md 
+ 1129  git pull
+ 1130  git push
+ 1131  cd..
+ 1132  cd ..
+ 1133  cd /home/vincent
+ 1134  ls
+ 1135  cd /rendu
+ 1136  cd rendu
+ 1137  cd ..
+ 1138  cp -r rendu /~/gits/ipssi_2019
+ 1139  cp -r rendu ~/gits/ipssi_2019
+ 1140  cd ~
+ 1141  ls
+ 1142  cd gits
+ 1143  ls
+ 1144  cd ipssi_2019
+ 1145  ls
+ 1146  git add rendu
+ 1147  ls
+ 1148  git status
+ 1149  git commit 'ajout de rendu' rendu
+ 1150* git commit "ajout 
+ 1151  git commit -m "ajout de rendu" rendu
+ 1152  git status
+ 1153  git push
+ 1154  mv rendu scripts
+ 1155  ls
+ 1156  git commit -m "changement de nom" scripts
+ 1157  git commit -m "changement de nom" rendu
+ 1158  git push
+ 1159  git add scripts
+ 1160  git commit -m "changement de nom" scripts
+ 1161  git push
+ 1162  nano Historique
+ 1163  ls
+ 1164  history > "histo_2019-11-06.txt"
