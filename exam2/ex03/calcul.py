@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-def division(a,b):
-    if  (b == 0):
+def division(a, b):
+    if  ( b == 0 ):
         print ("sorry cannot divide by zero")
-        print ("0")
+        return b
     else:
         return (a/b)
 

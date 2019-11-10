@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cut -d: -f3 /etc/passwd | sort -n | uniq
+cut -d: -f3 /etc/passwd
